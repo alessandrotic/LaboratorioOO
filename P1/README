@@ -1,0 +1,28 @@
+Trabalho P2 Lab OO
+
+Uma loja de departamentos deseja controlar a entrada e saída de produtos dos seus vários almoxarifados. 
+
+Cada entrada é endereçada a um almoxarifados e composta de um e somente um produto. 
+
+Possui uma data de entrada do produto no almoxarifado e uma quantidade. 
+
+Em cada almoxarifado existe no máximo uma entrada de cada produto, por dia. 
+
+A maior parte dos produtos é produzido pelas fábricas que a loja possui sendo deixada uma pequena parcela para fornecedores externos. 
+
+Não há interesse em se controlar as fábricas pertencentes a loja.
+
+Cada saída é composta de um e somente um produto de um almoxarifado, uma data e uma quantidade. Todas as saídas de produto tem um, e somente um, empregado responsável. Só há interesse em monitorar os fornecedores externos que efetivamente tenham fornecido algum produto à loja.
+
+Há interesse da loja em obter as seguintes informações do sistema:
+
+a) Quantidade de determinado produto em um determinado almoxarifado.
+
+b) Entradas de um produto em um almoxarifado em um determinado período informando: código do produto, descrição do produto, número do almoxarifado, localização do 
+almoxarifado, data da entrada, quantidade e se for o caso, código e nome do fornecedor externo.
+
+c) Saídas de um produto de um almoxarifado em um determinado período informando: código do produto, descrição do produto, número do almoxarifado, localização do almoxarifado, data da saída, quantidade, matrícula, nome e função do empregado responsável.
+
+d) Relação dos produtos que a loja comercializa ou tem intenção de comercializar.
+
+e)  Relação de todos os almoxarifados da loja (ativos a inativos).
